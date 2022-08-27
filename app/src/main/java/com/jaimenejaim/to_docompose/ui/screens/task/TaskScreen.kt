@@ -1,5 +1,6 @@
 package com.jaimenejaim.to_docompose.ui.screens.task
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.widget.Toast
 import androidx.activity.compose.BackHandler
@@ -11,6 +12,7 @@ import com.jaimenejaim.to_docompose.data.models.ToDoTask
 import com.jaimenejaim.to_docompose.ui.viewmodels.SharedViewModel
 import com.jaimenejaim.to_docompose.util.Action
 
+@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun TaskScreen(
     selectedTask: ToDoTask?,
@@ -66,7 +68,7 @@ fun TaskScreen(
 fun displayToast(context: Context) {
     Toast.makeText(
         context,
-        "Fields Empty.",
+        "Campos vazios.",
         Toast.LENGTH_SHORT
     ).show()
 }

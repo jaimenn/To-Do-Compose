@@ -1,5 +1,6 @@
 package com.jaimenejaim.to_docompose.ui.screens.list
 
+import android.annotation.SuppressLint
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
@@ -14,6 +15,7 @@ import com.jaimenejaim.to_docompose.util.Action
 import com.jaimenejaim.to_docompose.util.SearchAppBarState
 import kotlinx.coroutines.launch
 
+@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @ExperimentalAnimationApi
 @ExperimentalMaterialApi
 @Composable
@@ -125,7 +127,7 @@ fun DisplaySnackBar(
 
 private fun setMessage(action: Action, taskTitle: String): String {
     return when (action) {
-        Action.DELETE_ALL -> "All Tasks Removed."
+        Action.DELETE_ALL -> "Todas as atividades foram removidas."
         else -> "${action.name}: $taskTitle"
     }
 }
