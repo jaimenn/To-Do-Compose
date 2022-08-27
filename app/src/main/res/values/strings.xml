@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">To-Do Compose</string>
+
+    <string name="to_do_logo">To-Do Logo</string>
+    <string name="delete_all_tasks">Remover todas as atividades?</string>
+    <string name="delete_all_tasks_confirmation">Você tem certeza que deseja remover todas as atividades? Não há volta após esta ação.</string>
+    <string name="delete_task">Remover \'%1$s\'?</string>
+    <string name="delete_task_confirmation">Você tem certeza que deseja remover \'%1$s\'?</string>
+    <string name="no">Não</string>
+    <string name="yes">Sim</string>
+    <string name="title">Título</string>
+    <string name="description">Descrição</string>
+    <string name="drop_down_arrow">Drop-Down Arrow Icon</string>
+    <string name="update_icon">Update Icon</string>
+    <string name="delete_icon">Delete Icon</string>
+    <string name="back_arrow">Back Arrow</string>
+    <string name="add_task">Add Task</string>
+    <string name="empty_content">Nenhuma atividade encontrada.</string>
+    <string name="sad_face_icon">Sad Face Icon</string>
+    <string name="close_icon">Close Icon</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="search_placeholder">Search</string>
+    <string name="list_screen_title">Atividades</string>
+    <string name="search_action">Pesquisar atividades</string>
+    <string name="sort_action">Ordenar atividades</string>
+    <string name="delete_all_action">Remover todos</string>
+    <string name="add_button">Add Button</string>
+</resources>
